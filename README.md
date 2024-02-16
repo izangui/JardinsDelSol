@@ -1,1 +1,1 @@
-###This site was built using [GitHub Pages](https://github.com/izangui/JardinsDelSol).
+###This site was built using [GitHub Pages](https://izangui.github.io/JardinsDelSol/).
