@@ -35,8 +35,8 @@ body{
     text-decoration: solid;
 }
 .slide{
-    height: 450px;
+    height: 500px;
 }
-.coverflow{
+.overflow{
     overflow: hidden;
 }
