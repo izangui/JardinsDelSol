@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&display=swap');
 .cont{
     gap: 0px 300px !important;
 }
@@ -5,9 +6,25 @@ body{
     background-color: rgb(187, 222, 210);
 }
 .portaimagen{
-    background: url("./fotonoticia_20150513114212_1200.jpg") center right;
+    background: url("./fotonoticia_20150513114212_1200.jpg") no-repeat;
+    height: 790px;
     background-size: cover;
-    height: 650px;
     display:flex;
     justify-content: center;
+    align-items: center;
+}
+.portaimagen h1{
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #5f8ab5;
+    text-align: center;
+    padding: 2rem 3rem;
+    border: 3px solid #5f8ab5;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(10px);
+    height: auto;  
+}
+.text1{
+    margin-top: 50px;
 }
