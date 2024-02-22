@@ -38,7 +38,6 @@ body{
     overflow: hidden;
 }
 .aling card{
-    padding-top: 50px;
     background-color: rgb(202, 240, 227) ;
     border: none;
     display: flex;
@@ -48,11 +47,14 @@ body{
     height: 220px;
     display: block;
 }
+.eevee{
+
+    text-align: center;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 200px) { 
     .card{
-        padding-top: 10px;
         background-color: rgb(202, 240, 227);
         display: flex;
         margin-right: 7px; 
@@ -62,7 +64,6 @@ body{
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 576px) { 
     .card{
-        padding-top: 20px;
         background-color: rgb(202, 240, 227);
         display: flex;
         margin-right: 7px;
@@ -73,7 +74,6 @@ body{
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .card{
-        padding-top: 20px;
         background-color: rgb(202, 240, 227);
         display: flex;
         margin-right: 7px;

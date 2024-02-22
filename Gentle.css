@@ -27,4 +27,9 @@ body{
 }
 .text1{
     margin-top: 50px;
+    display: inline-block;
+}
+.text1 p{
+    
+    
 }
