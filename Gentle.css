@@ -26,6 +26,12 @@ body{
     height: auto;  
 }
 .text1{
-    margin-top: 50px;
     display: inline-block;
+}
+.text{
+    display: flex;
+    margin-top: 50px;
+}
+.text2 img{
+    width: 10px;
 }
