@@ -26,7 +26,10 @@ body{
     height: auto;  
 }
 .text1{
-    display: inline-block;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
 }
 .text{
     display: flex;
@@ -34,4 +37,25 @@ body{
 }
 .text2 img{
     width: 10px;
+}
+
+.text2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+}
+
+.llista{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

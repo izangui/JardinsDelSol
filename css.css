@@ -39,9 +39,9 @@ body{
 }
 .aling card{
     background-color: rgb(202, 240, 227) ;
-    border: none;
     display: flex;
     border-color: dimgray;
+
 }
 .alaing img{
     height: 220px;
@@ -49,7 +49,17 @@ body{
 }
 .eevee{
     padding-bottom: 20px;
+    padding-top: 10px;
     text-align: center;
+}
+.zumos{
+    background-color: #1aff22;
+}
+.umbreon{
+    background-color: #58ff78;
+}
+.poipole{
+    background-color: #92c1f1;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -58,7 +68,7 @@ body{
         background-color: rgb(202, 240, 227);
         display: flex;
         margin-right: 7px;
-        border-radius: 1 1px;
+        border-radius: 10 20px;
         border-color: dimgray;
     }
  }
