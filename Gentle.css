@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&display=swap');
 .cont{
     gap: 0px 300px !important;
+    justify-content: space-between !important;
 }
 body{
     background-color: rgb(187, 222, 210);
@@ -30,6 +31,7 @@ body{
     justify-content:center ;
     align-items: center;
     width: 100%;
+    gap: 50px;
 }
 .text{
     display: flex;
@@ -44,6 +46,7 @@ body{
     justify-content:center ;
     align-items: center;
     width: 100%;
+    gap: 50px;
 }
 
 .llista{
@@ -58,4 +61,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
 }
+
