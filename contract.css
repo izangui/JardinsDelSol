@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&display=swap');
+
+body{
+    background-color: rgb(202, 240, 227);
+}
+.cont{
+    justify-content: space-between !important;
+}
+
+.portaimagen{
+    height: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portaimagen h1{
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #5f8ab5;
+    text-align: center;
+    padding: 2rem 3rem;
+    border: 3px solid #5f8ab5;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(10px);
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+}
+.overflow{
+    overflow: hidden;
+}
+.aling card{
+    background-color: rgb(202, 240, 227) ;
+    display: flex;
+    border-color: dimgray;
+
+}
+.alaing img{
+    height: 220px;
+    display: block;
+}
+.eevee{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-decoration: underline 5px ;
+}
+.zumos{
+    background-color: #1aff22;
+}
+.umbreon{
+    background-color: #58ff78;
+}
+.poipole{
+    background-color: #92c1f1;
+}
+.sparkle{
+    background-color:  #ff8da1;
+}
+.rj45{
+    display: flex;
+    justify-content: end;
+}
+form{
+    display: block;
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 200px) { 
+    .card{
+        background-color: rgb(202, 240, 227);
+        display: flex;
+        margin-right: 7px;
+        border-radius: 10 20px;
+        border-color: dimgray;
+    }
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 576px) { 
+    .card{
+        background-color: rgb(202, 240, 227);
+        display: flex;
+        margin-right: 7px;
+        border-radius: 1 1px;
+        border-color: dimgray;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .card{
+        background-color: rgb(202, 240, 227);
+        display: flex;
+        margin-right: 7px;
+        border-radius: 1 1px;
+        border-color: dimgray;
+    }
+ }
