@@ -86,6 +86,10 @@ form{
     justify-content: center center;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+}
 
 
 
