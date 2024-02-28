@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&display=swap');
 .cont{
-    gap: 0px 300px !important;
     justify-content: space-between !important;
 }
 body{
@@ -33,10 +32,10 @@ body{
     align-items: center;
     width: 100%;
     gap: 50px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 .text1 p{
-    margin-right: 400px;
+    margin-right: 100px;
 }
 .text{
     display: flex;

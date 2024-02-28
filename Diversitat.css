@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&display=swap');
 .cont{
-    gap: 0px 300px !important;
     justify-content: space-between !important;
 }
 body{
@@ -32,7 +31,6 @@ body{
     align-items: center;
     width: 100%;
     gap: 50px;
-    margin-left: 300px;
 }
 .text1 p{
     margin-right: 400px;
@@ -88,9 +86,14 @@ body{
     align-items: center;
     flex-direction: column;
 }
-
+.text1{
+    background-color: rgb(251, 233, 115);
+}
 
 
 .bg-box-1{
     background-color: rgba(236,188,60,1);
+}
+.kilos{
+    margin-right: -200px;
 }
