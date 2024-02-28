@@ -74,13 +74,15 @@ body{
 .rj45{
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 20px;
     height: 100px;
+}
+.mb-3{
+    padding-top: 50px;
 }
 form{
     display: block;
     width: 25%;
-    background-color: beige;
     justify-content: center center;
 }
 
