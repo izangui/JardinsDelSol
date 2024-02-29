@@ -103,12 +103,22 @@ body{
  .container{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+    margin-top: 50px;
  }
  .quisom{
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 100px;
  }
  .quefem{
     margin-right: 100px;
  }
+ .quefem h1{
+    display: flex;
+    justify-content: center;
+ }
+ .quisom h1{
+    display: flex;
+    justify-content: center;
+ }
+
