@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&display=swap');
+.cont{
+    justify-content: space-between !important;
+}
+body{
+    background-color: rgb(187, 222, 210);
+}
+.portaimagen{
+    background: url("./fotonoticia_20150513114212_1200.jpg") no-repeat;
+    height: 790px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+}
+.portaimagen h1{
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #5f8ab5;
+    text-align: center;
+    padding: 2rem 3rem;
+    border: 3px solid #5f8ab5;
+    box-shadow: 0 0 25px #222;
+    backdrop-filter: blur(10px);
+    height: auto;  
+}
+.text1{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    margin-left: 100px;
+}
+.text1 p{
+    margin-right: 100px;
+}
+.text{
+    display: flex;
+    margin-top: 50px;
+}
+.text2 img{
+    width: 10px;
+}
+
+.text2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.llista{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.bacia{
+    margin-top: 50px;
+}
+.bacio2{
+    margin-top: 50px;
+}
+.text3{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    margin-left: -350px;
+}
+.llista2{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
