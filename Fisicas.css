@@ -6,8 +6,8 @@ body{
     background-color: rgb(187, 222, 210);
 }
 .portaimagen{
-    background: url("./q.png") no-repeat;
-    height: 750px;
+    background: url("./fotonoticia_20150513114212_1200.jpg") no-repeat;
+    height: 790px;
     background-size: cover;
     display:flex;
     justify-content: center;
@@ -33,18 +33,12 @@ body{
     width: 100%;
     gap: 50px;
     margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgb(230, 230, 23);
 }
 .text1 p{
     margin-right: 100px;
 }
-.text{
-    display: flex;
-    margin-top: 50px;
-}
-.text2 img{
-    width: 10px;
-}
-
 .text2{
     display: flex;
     justify-content:center ;
