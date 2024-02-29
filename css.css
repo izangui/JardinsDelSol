@@ -100,3 +100,15 @@ body{
         border-color: dimgray;
     }
  }
+ .container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ }
+ .quisom{
+    margin-left: 200px;
+    margin-right: 100px;
+ }
+ .quefem{
+    margin-right: 100px;
+ }

@@ -33,18 +33,12 @@ body{
     width: 100%;
     gap: 50px;
     margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgb(230, 230, 23);
 }
 .text1 p{
     margin-right: 100px;
 }
-.text{
-    display: flex;
-    margin-top: 50px;
-}
-.text2 img{
-    width: 10px;
-}
-
 .text2{
     display: flex;
     justify-content:center ;
